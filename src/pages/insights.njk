@@ -5,7 +5,7 @@ description: 'All blog posts can be found here'
 pagination:
   data: collections.allPosts
   size: 6
-permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
+permalink: 'insights/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
 <article class="wrapper">
@@ -23,6 +23,8 @@ permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber
       page ({{ pagination.size }}).
     </p>
   </div>
+
+
 
   <custom-masonry layout="50-50">
 		{% asyncEach item in pagination.items %}

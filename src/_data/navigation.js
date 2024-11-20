@@ -5,16 +5,8 @@ export default {
       url: '/about/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
-    },
-    {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Insights',
+      url: '/insights/'
     }
   ],
   bottom: [

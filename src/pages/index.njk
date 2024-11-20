@@ -1,11 +1,20 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Eleventy Excellent'
+title: 'Clarity Ops'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+valuetitle: 'Is your data platform designed to succeed?'
+valueprop: 'Most data professionals find themselves entrenched in the day-to-day manual development of analytical insights. They operate in an “ad-hoc” way, on top of a constellation of poorly integrated tools and data sources, often focusing on short-term deliverables without considering the future long term viability of what they build. 
+
+<br><br>On the other hand, high-performing data professionals focus on building solutions that can scale and can operate reliably in production over long periods of time. They also understand the importance of automation and developer experience.
+
+<br><br>You cannot win in analytics anymore with an “ad-hoc” approach to your data platform, fire fighting production issues on a daily basis instead of focusing on building deeper insights for your users.'
+
+whatido: 'I help the owner-led boutique consultancy achieve greater efficiency and more robust results.'
+
 blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  title: 'Our Insights'
+  intro: 'Selected Articles. Check our blog for more.'
 ---
 
 <div class="wrapper">
@@ -19,21 +28,18 @@ blog:
 
   <article class="full | region">
     <div class="wrapper flow prose">
-      <h2 id="an-eleventy-starter">An Eleventy starter</h2>
+      <h3 id="an-eleventy-starter">{{ valuetitle }}</h3>
       <p>
-        Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
-        incorporates progressive enhancement, fluid type and spacing, and utilizes modern CSS features for
-        layout. The goal is to develop frontends that provide a great experience across all devices,
-        connection speeds, and usage contexts.
+        {{ valueprop | safe }}
       </p>
+    </div>
+  </article>
+
+  <article class="full | region">
+    <div class="wrapper flow prose bg-secondary-highlight p-2">
       <p>
-        <strong>This is version 3.</strong> I keep a
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v1">branch of v1</a> and
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v2">v2</a> because I have changed a lot
-        of things. I have tried to <a href="/get-started/#docs-lol">document</a> most features and
-        methodologies.
+        {{ whatido }}
       </p>
-      <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
     </div>
   </article>
 
