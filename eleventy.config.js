@@ -112,5 +112,18 @@ export default async function (eleventyConfig) {
   };
 }
 
+module.exports = function (eleventyConfig) {
+  eleventyConfig.setBrowserSyncConfig({
+    files: './public/static/**/*.css',
+  });
+
+  return {
+    dir: {
+      input: 'src',
+      output: '_site',
+    },
+  };
+};
+
 
 
