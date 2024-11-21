@@ -32,3 +32,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site # Adjust to your Eleventy output directory
+          destination_branch: gh-pages # Ensure this branch exists or can be created
+          force_orphan: true # Optional: Fixes potential branch conflicts
