@@ -99,31 +99,23 @@ export default async function (eleventyConfig) {
   // --------------------- Build Settings
   eleventyConfig.setDataDeepMerge(true);
 
+  // --------------------- Deployment Settings
+  eleventyConfig.setBrowserSyncConfig({
+    files: './public/static/**/*.css',
+  });
+
   // --------------------- general config
   return {
     markdownTemplateEngine: 'njk',
 
     dir: {
-      output: 'dist',
+      output: '_site',
       input: 'src',
       includes: '_includes',
       layouts: '_layouts'
     }
   };
 }
-
-module.exports = function (eleventyConfig) {
-  eleventyConfig.setBrowserSyncConfig({
-    files: './public/static/**/*.css',
-  });
-
-  return {
-    dir: {
-      input: 'src',
-      output: '_site',
-    },
-  };
-};
 
 
 
