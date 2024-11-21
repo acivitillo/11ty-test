@@ -15,6 +15,7 @@
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
+    "build:index": "npx -y pagefind --site dist",
     "start": "npm run dev:clean & npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty"
   },
@@ -54,6 +55,7 @@
     "markdown-it-mark": "^4.0.0",
     "markdown-it-prism": "^2.3.0",
     "netlify-plugin-cache": "^1.0.3",
+    "pagefind": "^1.2.0",
     "postcss": "^8.4.8",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.0.0",

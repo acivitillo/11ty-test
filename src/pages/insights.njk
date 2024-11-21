@@ -9,7 +9,7 @@ permalink: 'insights/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNu
 ---
 
 <article class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-secondary)">
+  <header class="full | section" style="--spot-color: var(--color-tertiary)">
     <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
@@ -18,6 +18,10 @@ permalink: 'insights/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNu
   </header>
 
   <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
+
+    <div id="search" class="search"></div>
+    <script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
+
     <p>This blog has a pagination of <strong>{{ pagination.size }}</strong> posts per page.<br>
       The pagination is only shown if there are more posts ({{ collections.posts.length }}) than items per
       page ({{ pagination.size }}).
