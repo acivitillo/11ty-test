@@ -105,6 +105,9 @@ export default async function (eleventyConfig) {
   });
 
   // --------------------- general config
+
+  const isProduction = process.env.ELEVENTY_ENV === 'production';
+
   return {
     markdownTemplateEngine: 'njk',
 
@@ -113,7 +116,7 @@ export default async function (eleventyConfig) {
       input: 'src',
       includes: '_includes',
       layouts: '_layouts'
-    }
-    // pathPrefix: "/11ty-test/",
+    },
+    pathPrefix: isProduction ? '/11ty-test/' : '/'
   };
 }
