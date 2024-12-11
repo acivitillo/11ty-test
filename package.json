@@ -14,7 +14,7 @@
     "colors": "node ./src/_config/setup/create-colors.js",
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
-    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy --pathprefix=/11ty-test/",
+    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "build:index": "npx -y pagefind --site dist",
     "start": "npm run dev:clean & npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty"
