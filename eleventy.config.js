@@ -107,6 +107,9 @@ export default async function (eleventyConfig) {
 
   // --------------------- general config
 
+  // const isProduction = process.env.ELEVENTY_ENV === 'production';
+  // pathPrefix: isProduction ? '/11ty-test/' : '/'
+
   return {
     markdownTemplateEngine: 'njk',
 
@@ -116,6 +119,5 @@ export default async function (eleventyConfig) {
       includes: '_includes',
       layouts: '_layouts'
     }
-    // pathPrefix: '/'
   };
 }
