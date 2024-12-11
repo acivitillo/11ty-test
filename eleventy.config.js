@@ -101,7 +101,7 @@ export default async function (eleventyConfig) {
 
   // --------------------- Deployment Settings
   eleventyConfig.setBrowserSyncConfig({
-    files: './public/static/**/*.css',
+    files: './public/static/**/*.css'
   });
 
   // --------------------- general config
@@ -113,10 +113,7 @@ export default async function (eleventyConfig) {
       input: 'src',
       includes: '_includes',
       layouts: '_layouts'
-    },
-    pathPrefix: "/11ty-test/", // Replace with your repository name
+    }
+    // pathPrefix: "/11ty-test/",
   };
 }
-
-
-
