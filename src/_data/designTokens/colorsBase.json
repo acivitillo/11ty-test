@@ -1,0 +1,20 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. The first two colors are used by the theme toggle script to set the theme color.",
+  "neutral": [
+    {
+      "name": "Dove gray",
+      "value": "#68676C"
+    }
+  ],
+  "colors": [
+    {
+      "name": "Royal Blue",
+      "value": "#4862E5"
+    },
+    {
+      "name": "Medium Red Violet",
+      "value": "#DF56B8"
+    }
+  ]
+}
