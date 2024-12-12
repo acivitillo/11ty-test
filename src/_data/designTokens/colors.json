@@ -91,52 +91,12 @@
       "value": "#070846"
     },
     {
-      "name": "Medium Red Violet 50",
-      "value": "#ffe8f9"
-    },
-    {
-      "name": "Medium Red Violet 100",
-      "value": "#ffd9f9"
-    },
-    {
-      "name": "Medium Red Violet 200",
-      "value": "#ffadeb"
-    },
-    {
-      "name": "Medium Red Violet 300",
-      "value": "#ff8ddf"
-    },
-    {
-      "name": "Medium Red Violet 400",
-      "value": "#e965c2"
-    },
-    {
-      "name": "Medium Red Violet 500",
-      "value": "#d047aa"
-    },
-    {
-      "name": "Medium Red Violet 600",
-      "value": "#a61985"
-    },
-    {
-      "name": "Medium Red Violet 700",
-      "value": "#8b006d"
-    },
-    {
-      "name": "Medium Red Violet 800",
-      "value": "#700057"
-    },
-    {
-      "name": "Medium Red Violet 900",
-      "value": "#440033"
-    },
-    {
-      "name": "Medium Red Violet 950",
-      "value": "#310024"
-    },
-    {
       "name": "Gold",
       "value": "#DFBA56"
+    },
+    {
+      "name": "Pink",
+      "value": "#C23797"
     }
   ]
 }
