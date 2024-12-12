@@ -1,7 +1,7 @@
 export const url = process.env.URL || 'http://localhost:8080';
-export const siteName = 'Clarity Ops';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
-export const siteType = 'Person'; // schema
+export const siteName = 'The Scalable Way';
+export const siteDescription = 'Empowering Data Platforms with Precision and Scale';
+export const siteType = 'Organization'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
