@@ -1,15 +1,15 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Clarity Ops'
+title: 'The Scalable Way'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
 valuetitle: 'Is your data tech stack working with you or against you?'
-valueprop: 'Most data professionals are stuck navigating complex analytics workflows. They deal with fragmented access, manual maintenance, “ad hoc” pipelines, and weak security and governance—largely because they rely on a patchwork of poorly integrated tools instead of a cohesive data platform.
-<br><br>
+valueprop: |
+  Most data professionals are stuck navigating complex analytics workflows. They deal with fragmented access, manual maintenance, “ad hoc” pipelines, and weak security and governance—largely because they rely on a patchwork of poorly integrated tools instead of a cohesive data platform.
 
-In contrast, high-performing analytics teams prioritize scalable solutions, borrowing best practices from software development. These solutions are automated, provide streamlined workflows, ensure a strong developer experience, are secure by default, and consistently deliver reliable production insights. A well-designed data platform is essential to achieve these outcomes.'
+  In contrast, high-performing analytics teams prioritize scalable solutions, borrowing best practices from software development. These solutions are automated, provide streamlined workflows, ensure a strong developer experience, are secure by default, and consistently deliver reliable production insights. A well-designed data platform is essential to achieve these outcomes.'
 
-whatido: 'I help the owner-led boutique consultancy achieve greater efficiency and more robust results.'
+	whatido: 'I help the owner-led boutique consultancy achieve greater efficiency and more robust results.
 
 blog:
   title: 'Our Insights'
@@ -17,7 +17,7 @@ blog:
 ---
 
 <div class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-primary)">
+  <header class="full | section" style="--spot-color: var(--color-blue)">
     <div class="section__inner flow region">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
@@ -29,7 +29,7 @@ blog:
     <div class="wrapper flow prose">
       <h3 id="an-eleventy-starter">{{ valuetitle }}</h3>
       <p>
-        {{ valueprop | safe }}
+        {{ valueprop | markdownFormat | safe  }}
       </p>
     </div>
   </article>
