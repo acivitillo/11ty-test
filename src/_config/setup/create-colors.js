@@ -76,4 +76,11 @@ colorsBase.colors.forEach(color => {
   });
 });
 
+colorsBase.fixedColors.forEach(color => {
+  colorTokens.items.push({
+    name: color.name,
+    value: color.value
+  });
+});
+
 fs.writeFileSync('./src/_data/designTokens/colors.json', JSON.stringify(colorTokens, null, 2));

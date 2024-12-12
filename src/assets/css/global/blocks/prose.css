@@ -34,7 +34,7 @@
 }
 
 .prose mark {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-gold);
   color: var(--color-base-dark);
 }
 
@@ -50,12 +50,12 @@
 
 /* marker only for "regular lists" */
 .prose :where(ul:not(.grid):not([role='list'])) li::marker {
-  color: var(--color-primary);
+  color: var(--color-blue);
   content: '– ';
 }
 
 .prose ol li::marker {
-  color: var(--color-primary);
+  color: var(--color-blue);
 }
 
 .prose img {

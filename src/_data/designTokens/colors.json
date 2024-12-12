@@ -1,6 +1,6 @@
 {
   "title": "Colors",
-  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. The first two colors are used by the theme toggle script to set the theme color.",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. neutral and colors are converted to color scales, fixedColors are kept as they are",
   "items": [
     {
       "name": "Dove Gray 50",
@@ -133,6 +133,10 @@
     {
       "name": "Medium Red Violet 950",
       "value": "#310024"
+    },
+    {
+      "name": "Gold",
+      "value": "#DFBA56"
     }
   ]
 }

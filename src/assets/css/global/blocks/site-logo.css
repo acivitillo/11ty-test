@@ -5,5 +5,6 @@
   text-decoration: none;
 }
 .logo svg {
-  color: var(--color-blue);
+  color: var(--color-royal-blue-500);
+  block-size: auto;
 }

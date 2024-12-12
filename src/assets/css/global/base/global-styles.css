@@ -20,7 +20,7 @@ body {
   line-height: var(--leading-standard);
   color: var(--color-text);
   background-color: var(--color-bg);
-  accent-color: var(--color-primary);
+  accent-color: var(--color-blue);
   letter-spacing: var(--tracking);
 }
 
@@ -59,7 +59,7 @@ blockquote:not([class]) {
 
 blockquote {
   padding: var(--space-m-l);
-  border-inline-start: 0.5rem solid var(--color-primary);
+  border-inline-start: 0.5rem solid var(--color-blue);
   font-size: var(--size-step-2);
 }
 
@@ -76,7 +76,7 @@ blockquote :last-child {
 /* Form elements */
 input,
 textarea {
-  caret-color: var(--color-primary);
+  caret-color: var(--color-blue);
 }
 
 /* SVG */
