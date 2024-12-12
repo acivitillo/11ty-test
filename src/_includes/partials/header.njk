@@ -1,8 +1,8 @@
 <header class="site-header | wrapper">
   <a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 
-  <div class="repel ontop gutter-3xs">
-    <a href="/" class="logo | cluster" {% if page.url == "/" %}aria-current="page"{% endif %}>
+  <div class="popout | repel ontop gutter-3xs">
+    <a href="/" class="logo | cluster gutter-2xs" {% if page.url == "/" %}aria-current="page"{% endif %}>
       {% svg "brand/logo" %}
 
       {{ meta.siteName }}

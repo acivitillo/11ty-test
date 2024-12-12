@@ -11,8 +11,8 @@
 
 .mainnav ul {
   /* configuration */
-  --gutter: var(--space-xs);
-  --cluster-vertical-alignment: normal;
+  --gutter: var(--space-3xs);
+  --cluster-vertical-alignment: center;
   --nav-list-background: var(--color-bg-accent);
   --nav-list-shadow: -5px 0 11px 0 hsl(0 0% 0% / 0.2);
   --nav-list-layout: column;
@@ -98,7 +98,7 @@
   /* configuration */
   --nav-item-background: transparent;
   --nav-item-text-color: var(--color-text);
-  --nav-item-padding: var(--space-xs) var(--space-2xs);
+  --nav-item-padding: var(--space-2xs) var(--space-2xs);
   --nav-item-decoration-color: transparent;
 
   background: var(--nav-item-background);
@@ -110,6 +110,7 @@
   text-decoration-color: var(--nav-item-decoration-color);
   text-decoration-thickness: 3px;
   text-underline-offset: 0.2em;
+  font-weight: var(--font-medium);
 }
 
 .mainnav a:where(:hover, :focus) {
@@ -148,6 +149,12 @@
     --nav-item-text-color: var(--color-blue);
     --nav-item-decoration-color: var(--color-blue);
   }
+
+  .mainnav > ul:first-of-type > li:last-child a {
+    --nav-item-background: var(--color-blue);
+    --nav-item-padding: var(--space-4xs) var(--space-xs);
+    --nav-item-text-color: var(--color-light);
+  }
 }
 
 /* Repeat the settings to provide a different styling when JavaScript is disabled or drawerNav is set to false. The selector
@@ -162,7 +169,6 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-list-shadow: none;
   --nav-list-visibility: visible;
   --nav-list-transform: translateX(0);
-  margin-block-end: var(--space-2xs);
 }
 
 .mainnav ul:first-child [aria-current='page'],

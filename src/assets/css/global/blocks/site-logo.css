@@ -1,8 +1,9 @@
 .logo {
   --gutter: var(--space-xs);
-  padding: var(--space-s) 0;
+  padding: var(--space-2xs) 0;
   font-size: var(--size-step-0);
   text-decoration: none;
+  font-weight: var(--font-medium);
 }
 .logo svg {
   color: var(--color-royal-blue-500);

@@ -3,7 +3,6 @@
   --gutter: var(--space-m-l);
   --transition-duration: 250ms;
   --transition-timing: ease;
-  --wrapper-width: 85rem;
   --tracking: -0.05ch;
   --tracking-s: -0.075ch;
   --tracking-wide: 0.05ch;
@@ -31,7 +30,6 @@
   --color-text: var(--color-dove-gray-900);
   --color-bg: white;
   --color-blue: var(--color-royal-blue-500);
-  --color-pink: var(--color-medium-red-violet-500);
   --color-text-accent: var(--color-dove-gray-800);
   --color-bg-accent: var(--color-dove-gray-50);
   --color-bg-accent-2: var(--color-dove-gray-100);
@@ -47,7 +45,6 @@
     --color-text: var(--color-dove-gray-50);
     --color-bg: var(--color-dove-gray-800);
     --color-blue: var(--color-royal-blue-600);
-    --color-pink: var(--color-medium-red-violet-600);
     --color-text-accent: var(--color-dove-gray-100);
     --color-bg-accent: var(--color-dove-gray-900);
     --color-bg-accent-2: var(--color-dove-gray-700);
@@ -63,7 +60,6 @@
   --color-text: var(--color-dove-gray-50);
   --color-bg: var(--color-dove-gray-800);
   --color-blue: var(--color-royal-blue-600);
-  --color-pink: var(--color-medium-red-violet-600);
   --color-text-accent: var(--color-dove-gray-100);
   --color-bg-accent: var(--color-dove-gray-900);
   --color-bg-accent-2: var(--color-dove-gray-700);

@@ -2,7 +2,6 @@
 
 .prose {
   --flow-space: var(--space-m-l);
-  --wrapper-width: 64rem;
 }
 
 .prose :where(pre, pre + *, figure, figure + *) {
