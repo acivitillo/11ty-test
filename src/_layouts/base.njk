@@ -43,7 +43,7 @@
     {% include "head/pagefind.njk" %}
   </head>
 
-  <body class="{{ layout }}">
+  <body class="{{ layout }} {{ bodyClass }}">
     {% include "partials/header.njk" %}
 
     <main id="main" class="flow">{{ content | safe }}</main>

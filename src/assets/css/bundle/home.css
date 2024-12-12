@@ -1,0 +1,55 @@
+.home h1 {
+  font-weight: var(--font-light);
+}
+
+.home .hero {
+  --button-icon-size: 1.8ch;
+  overflow: hidden;
+  grid-row: 1;
+  background: var(--color-bg-accent);
+  display: grid;
+  block-size: clamp(35rem, 70vh, 45rem);
+  grid-column: full;
+}
+
+.home .hero > :is(svg, header) {
+  grid-row: 1;
+}
+
+/* first blue pixel */
+.home .hero > svg {
+  grid-column: full;
+  inline-size: 100%;
+  block-size: auto;
+  color: var(--color-text);
+  z-index: 1;
+  stroke-width: 0.05ch;
+}
+
+.home .hero > svg:first-of-type {
+  grid-column: full-start / content-end;
+  transform: rotate(30deg);
+  inline-size: clamp(30ch, 30vw, 35rem);
+  margin-inline-start: -15ch;
+}
+
+.home .hero > svg:nth-of-type(2) {
+  grid-column: content-start / full-end;
+  justify-self: end;
+  align-self: center;
+  inline-size: clamp(50ch, 40vw, 60rem);
+  transform: rotate(210deg);
+  margin-inline-end: -20%;
+  margin-block-end: -10ch;
+}
+
+.home .hero > header {
+  grid-column: content;
+  background: transparent;
+  z-index: 1;
+  align-self: center;
+}
+
+.home .hero > header p {
+  max-inline-size: 45ch;
+}
