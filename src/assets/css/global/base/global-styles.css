@@ -33,7 +33,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: var(--font-extra-bold);
+  font-weight: var(--font-medium);
   line-height: 1.2;
   letter-spacing: var(--tracking-s);
 }
@@ -89,8 +89,7 @@ svg {
 /* Text styling */
 b,
 strong {
-  font-weight: var(--font-extra-bold);
-  font-family: var(--font-display);
+  font-weight: var(--font-bold);
 }
 
 /* Horizontal rule */
