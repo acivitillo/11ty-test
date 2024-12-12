@@ -21,9 +21,14 @@
   grid-column: full;
   inline-size: 100%;
   block-size: auto;
-  color: var(--color-text);
-  z-index: 1;
+  color: var(--color-bg-accent-2);
   stroke-width: 0.05ch;
+}
+
+@media screen(max) {
+  .home .hero > svg {
+    color: var(--color-text);
+  }
 }
 
 .home .hero > svg:first-of-type {
