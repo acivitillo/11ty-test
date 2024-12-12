@@ -46,7 +46,7 @@
   <body class="{{ layout }} {{ bodyClass }}">
     {% include "partials/header.njk" %}
 
-    <main id="main" class="flow">{{ content | safe }}</main>
+    <main id="main" class="{{ mainClass }}">{{ content | safe }}</main>
 
     {% include "partials/footer.njk" %}
   </body>

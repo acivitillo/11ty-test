@@ -1,5 +1,6 @@
 /* Basic variable definitions for color schemes */
 :root {
+  --gap: clamp(1rem, 6vw, 3rem);
   --gutter: var(--space-m-l);
   --transition-duration: 250ms;
   --transition-timing: ease;
@@ -30,9 +31,11 @@
   --color-text: var(--color-dove-gray-900);
   --color-bg: white;
   --color-blue: var(--color-royal-blue-500);
+  --color-blue-accent: var(--color-royal-blue-50);
   --color-text-accent: var(--color-dove-gray-800);
   --color-bg-accent: var(--color-dove-gray-50);
   --color-bg-accent-2: var(--color-dove-gray-100);
+  --color-bg-accent-3: var(--color-dove-gray-200);
 
   img {
     filter: brightness(1);
@@ -45,9 +48,11 @@
     --color-text: var(--color-dove-gray-50);
     --color-bg: var(--color-dove-gray-800);
     --color-blue: var(--color-royal-blue-600);
+    --color-blue-accent: var(--color-dove-gray-900);
     --color-text-accent: var(--color-dove-gray-100);
     --color-bg-accent: var(--color-dove-gray-900);
     --color-bg-accent-2: var(--color-dove-gray-700);
+    --color-bg-accent-3: var(--color-dove-gray-700);
 
     img {
       filter: brightness(0.9);
@@ -60,9 +65,11 @@
   --color-text: var(--color-dove-gray-50);
   --color-bg: var(--color-dove-gray-800);
   --color-blue: var(--color-royal-blue-600);
+  --color-blue-accent: var(--color-dove-gray-900);
   --color-text-accent: var(--color-dove-gray-100);
   --color-bg-accent: var(--color-dove-gray-900);
   --color-bg-accent-2: var(--color-dove-gray-700);
+  --color-bg-accent-3: var(--color-dove-gray-700);
 
   img {
     filter: brightness(0.9);
