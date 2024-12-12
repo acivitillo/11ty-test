@@ -1,29 +1,49 @@
 @font-face {
-  font-family: 'Inclusive Sans';
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local(''),
+    url('/assets/fonts/clearsans/clearsans-light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Clear Sans';
   font-style: normal;
   font-display: swap;
   font-weight: 400;
   src:
     local(''),
-    url('/assets/fonts/inclusive/inclusivesans-regular.woff2') format('woff2');
+    url('/assets/fonts/clearsans/clearsans-regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Inclusive Sans';
+  font-family: 'Clear Sans';
   font-style: italic;
   font-display: swap;
   font-weight: 400;
   src:
     local(''),
-    url('/assets/fonts/inclusive/inclusivesans-italic.woff2') format('woff2');
+    url('/assets/fonts/clearsans/clearsans-italic.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Redhat';
+  font-family: 'Clear Sans';
   font-style: normal;
   font-display: swap;
-  font-weight: 900;
+  font-weight: 500;
   src:
     local(''),
-    url('/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2') format('woff2');
+    url('/assets/fonts/clearsans/clearsans-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local(''),
+    url('/assets/fonts/clearsans/clearsans-bold.woff2') format('woff2');
 }

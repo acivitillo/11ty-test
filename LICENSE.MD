@@ -4,6 +4,7 @@ This project is licensed under the ISC License. Additionally, it includes compon
 
 ### ISC License
 
+The **Eleventy Excellent** starter is licensed under the ISC License.
 Copyright (c) 2024 Lene Saile
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
@@ -12,8 +13,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 ### MIT License
 
-The **Cube Boilerplate** is licensed under the MIT License:
-
+The **Cube Boilerplate** is licensed under the MIT License.
 Copyright (c) 2024 Set Studio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34,15 +34,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### SIL OPEN FONT LICENSE
+### APACHE LICENSE 2.0
 
-The Fonts **Red Hat Display** and **Inclusive Sans** are licensed under the SIL License, Version 1.1.
+The Font **Clear Sans** is licensed under the Apache License, Version 2.0.
+Copyright (c) 2021 Intel
 
-Copyright (c) 2021 Red Hat, Inc. and 2024 (c) Olivia King.
-
-This license allows
+This license allows:
 
 - Commercial use
-- Modifying
-- Redistribution
-- Full license: https://openfontlicense.org/
+- Modification
+- Redistribution with attribution
+- Full license: https://www.apache.org/licenses/LICENSE-2.0
