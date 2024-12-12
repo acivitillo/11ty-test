@@ -2,7 +2,7 @@
   color: var(--button-text, var(--color-text));
   background-color: var(--button-bg, var(--color-bg));
   border: 2px solid var(--button-border, var(--color-text));
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-small);
   display: inline-block;
   font: inherit;
   padding: 0.3rem var(--space-s);
