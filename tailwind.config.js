@@ -45,7 +45,6 @@ export default {
     lineHeight,
     backgroundColor: ({theme}) => theme('colors'),
     textColor: ({theme}) => theme('colors'),
-    borderRadius: ({theme}) => theme('spacing'),
     margin: ({theme}) => ({
       auto: 'auto',
       ...theme('spacing')
