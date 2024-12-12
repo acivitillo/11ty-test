@@ -4,3 +4,6 @@
   font-size: var(--size-step-0);
   text-decoration: none;
 }
+.logo svg {
+  color: var(--color-blue);
+}
