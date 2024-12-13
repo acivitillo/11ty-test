@@ -3,16 +3,16 @@ layout: base
 schema: blog
 ---
 
-<article class="region blog" style="--region-space-top: var(--space-xl-2xl)" data-pagefind-body>
+<article class="region blog" data-pagefind-body>
   <div class="wrapper flow prose">
-    <h1 class="gradient-text">{{ title }}</h1>
+    <h1>{{ title }}</h1>
 
     {% if image %}
       <!-- image -->
       {% image image, alt or title, credit, "eager", "feature" %}
     {% endif %}
 
-    <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
+    <p class="meta | cluster">
       <!-- date -->
       {% set definedDate = date %} {% include "partials/date.njk" %}
       {%

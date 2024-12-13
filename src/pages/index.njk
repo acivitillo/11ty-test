@@ -20,7 +20,7 @@ intro:
     In contrast, high-performing analytics teams prioritize scalable solutions, borrowing best practices from software development. These solutions are automated, provide streamlined workflows, ensure a strong developer experience, are secure by default, and consistently deliver reliable production insights. A well-designed data platform is essential to achieve these outcomes.
 
 highlight_one:
-  title: 'We help data analytics teams & departments achieve greater efficiency and more robust solutions in production.'
+  title: 'We help data analytics teams & departments achieve greater efficiency and more robust solutions in production'
   subtitle: 'by helping with developing infrastructure, ingestion, transformation, and documentation as code; training your teams on the enhanced development workflow; servicing recurring data ops and data platform needs.'
 
 highlight_two:
@@ -49,28 +49,6 @@ about:
     We believe in automation and good developer experience!
 
     With a combined 30+ years of experience in infrastructure, data platforms, and data engineering, we are on a mission to help data analytics teams build more robust and scalable solutions.
-
-  team:
-    - name: Alessio Civitillo
-      description: >
-        An experienced financial analyst and software engineer, Alessio brings a unique blend
-        of expertise and vision to the world of data, ensuring that our clients unlock the hidden
-        connections in their data and deliver value to their stakeholders.
-      image: alessio.jpg
-
-    - name: Karol
-      description: >
-        An experienced financial analyst and software engineer, Alessio brings a unique blend
-        of expertise and vision to the world of data, ensuring that our clients unlock the hidden
-        connections in their data and deliver value to their stakeholders.
-      image: karol.jpg
-
-    - name: Mateusz
-      description: >
-        An experienced financial analyst and software engineer, Alessio brings a unique blend
-        of expertise and vision to the world of data, ensuring that our clients unlock the hidden
-        connections in their data and deliver value to their stakeholders.
-      image: mateusz.jpg
 
 why:
   title: 'Why do clients come to us?'
@@ -140,17 +118,18 @@ blog:
 <div class="highlight-one | wrapper">
   <div class="full wrapper section" style="--spot-color: var(--color-blue-accent)">
     <article class="full  intro | section__inner wrapper  region">
-      <div class="feature flow">
-        <h2 class="text-step-2">{{ highlight_one.title }}</h2>
-        <p>{{ highlight_one.subtitle }}</p>
+      <div class="feature flow prose">
+        <h2 class="text-step-3">{{ highlight_one.title }} <span>*</span></h2>
+        <p class="text-step-min-1"><span>*</span> {{ highlight_one.subtitle }}</p>
       </div>
+      {% svg "brand/rings" %}
     </article>
   </div>
 </div>
 
 <div class="highlight-two | wrapper">
   <div class="full wrapper section" style="--spot-color: var(--color-dove-gray-700)">
-    <article class="full  intro | section__inner wrapper region flow text-center text-dove-gray-50">
+    <article class="full  intro | section__inner wrapper region flow prose text-center text-dove-gray-50">
       <h2 class="text-step-2">
         {{ highlight_two.title1 }}
         <span class="block text-step-3 text-pink">{{ highlight_two.title2 }} </span>
@@ -184,18 +163,18 @@ blog:
 </div>
 
 <div class="about | wrapper">
-  <article class="feature | region flow">
+  <article class="feature | region">
     <header class="grid" data-layout="thirds">
       <h2>{{ about.title }}</h2>
       <div class="flow">{{ about.content | markdownFormat | safe }}</div>
     </header>
     <div class="grid region" data-layout="thirds">
-      {% for member in about.team %}
-        <div class="flow">
+      {% for member in team %}
+        <div class="about__content flow">
           {% image "./src/assets/images/team/" + member.image, "" %}
 
           <h3>{{ member.name }}</h3>
-          <p>{{ member.description }}</p>
+          {{ member.description_short | markdownFormat | safe }}
         </div>
       {% endfor %}
     </div>
@@ -223,6 +202,7 @@ blog:
 <div class="services | wrapper">
   <div class="full wrapper section" style="--spot-color: var(--color-blue-accent)">
     <article class="full intro | section__inner wrapper region flow">
+      {% svg "brand/arrows" %}
         <h2 class="text-center">{{ services.title }}</h2>
         <div class="mt-m">
           {% for item in services.items %}

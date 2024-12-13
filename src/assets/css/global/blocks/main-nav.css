@@ -113,7 +113,7 @@
   font-weight: var(--font-medium);
 }
 
-.mainnav a:where(:hover, :focus) {
+.mainnav a:is(:hover, :focus) {
   --nav-item-background: transparent;
   --nav-item-text-color: var(--color-text);
   --nav-item-decoration-color: var(--color-text);
@@ -121,8 +121,20 @@
 
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
-  --nav-item-background: var(--color-blue);
+  --nav-item-background: var(--color-text);
   --nav-item-text-color: var(--color-light);
+  --nav-item-decoration-color: transparent;
+}
+
+.mainnav > ul:first-of-type > li:last-child a {
+  --nav-item-background: var(--color-blue);
+  --nav-item-padding: var(--space-4xs) var(--space-xs);
+  --nav-item-text-color: var(--color-light);
+}
+
+.mainnav > ul:first-of-type > li:last-child a:is(:hover, :focus),
+.mainnav > ul:first-of-type > li:last-child [aria-current='page'] {
+  --nav-item-background: var(--color-text);
   --nav-item-decoration-color: transparent;
 }
 
@@ -146,14 +158,8 @@
   .mainnav [aria-current='page'],
   .mainnav [data-state='active'] {
     --nav-item-background: transparent;
-    --nav-item-text-color: var(--color-blue);
+    --nav-item-text-color: var(--color-text);
     --nav-item-decoration-color: var(--color-blue);
-  }
-
-  .mainnav > ul:first-of-type > li:last-child a {
-    --nav-item-background: var(--color-blue);
-    --nav-item-padding: var(--space-4xs) var(--space-xs);
-    --nav-item-text-color: var(--color-light);
   }
 }
 

@@ -1,4 +1,4 @@
-<footer class="site-footer ">
+<footer class="site-footer {{ footerSpace }}">
   <div class="wrapper">
     <div class="footer__meta | cluster">
       <nav class="footer__meta | cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
@@ -42,12 +42,5 @@
 
     <!-- theme switch -->
     {% include 'partials/theme-switch.njk' %}
-
-    <aside class="creator">
-      <a class="cluster" href="{{ meta.creator.website }}"
-        >Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> by
-        {{ meta.creator.name }}</a
-      >
-    </aside>
   </div>
 </footer>

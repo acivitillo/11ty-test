@@ -21,7 +21,6 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   accent-color: var(--color-blue);
-  letter-spacing: var(--tracking);
 }
 
 main {
@@ -84,6 +83,8 @@ svg {
   block-size: 2ex;
   inline-size: auto;
   flex: none;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
 }
 
 /* Text styling */

@@ -29,13 +29,16 @@
   --color-dark: var(--color-dove-gray-900);
   --color-light: var(--color-dove-gray-50);
   --color-text: var(--color-dove-gray-900);
-  --color-bg: white;
-  --color-blue: var(--color-royal-blue-500);
-  --color-blue-accent: var(--color-royal-blue-50);
   --color-text-accent: var(--color-dove-gray-800);
+  --color-bg: white;
   --color-bg-accent: var(--color-dove-gray-50);
   --color-bg-accent-2: var(--color-dove-gray-100);
   --color-bg-accent-3: var(--color-dove-gray-200);
+  --color-blue: var(--color-royal-blue-500);
+  --color-blue-accent: var(--color-royal-blue-50);
+  --color-blue-accent-2: var(--color-royal-blue-900);
+  --color-blue-accent-3: var(--color-royal-blue-200);
+  --color-blue-accent-4: var(--color-royal-blue-600);
 
   img {
     filter: brightness(1);
@@ -49,6 +52,9 @@
     --color-bg: var(--color-dove-gray-800);
     --color-blue: var(--color-royal-blue-600);
     --color-blue-accent: var(--color-dove-gray-900);
+    --color-blue-accent-2: var(--color-royal-blue-300);
+    --color-blue-accent-3: var(--color-dove-gray-100);
+    --color-blue-accent-4: var(--color-royal-blue-400);
     --color-text-accent: var(--color-dove-gray-100);
     --color-bg-accent: var(--color-dove-gray-900);
     --color-bg-accent-2: var(--color-dove-gray-700);
@@ -66,6 +72,9 @@
   --color-bg: var(--color-dove-gray-800);
   --color-blue: var(--color-royal-blue-600);
   --color-blue-accent: var(--color-dove-gray-900);
+  --color-blue-accent-2: var(--color-royal-blue-300);
+  --color-blue-accent-3: var(--color-dove-gray-100);
+  --color-blue-accent-4: var(--color-royal-blue-400);
   --color-text-accent: var(--color-dove-gray-100);
   --color-bg-accent: var(--color-dove-gray-900);
   --color-bg-accent-2: var(--color-dove-gray-700);

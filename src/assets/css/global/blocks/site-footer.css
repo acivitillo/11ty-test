@@ -1,5 +1,4 @@
 .site-footer {
-  margin-block-start: var(--space-l-xl);
   padding: var(--space-s-m);
   color: var(--color-text);
 }
@@ -11,10 +10,11 @@
 
 /* increase tab size */
 .site-footer .footer__meta a {
-  padding: var(--space-xs);
+  padding: var(--space-3xs);
 }
 
 .site-footer svg {
+  stroke-width: 2;
   inline-size: 1.1em;
   block-size: 1em;
 }
