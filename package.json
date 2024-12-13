@@ -1,9 +1,8 @@
 {
-  "name": "eleventy-excellent",
+  "name": "the-scalable-way",
   "version": "3.7.3",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
+  "description": "Based on Eleventy Excellent.",
   "author": "Lene Saile",
-  "license": "ISC",
   "type": "module",
   "engines": {
     "node": ">=20.x.x"

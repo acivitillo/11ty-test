@@ -1,6 +1,7 @@
 ## Licenses
 
-This project is licensed under the ISC License. Additionally, it includes components that are licensed under the MIT and SIL License.
+Eleventy Excellent is licensed under the ISC License.
+This starter includes components that are licensed under the MIT and Apache License.
 
 ### ISC License
 
