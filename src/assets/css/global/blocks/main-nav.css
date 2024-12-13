@@ -159,7 +159,7 @@
   .mainnav [data-state='active'] {
     --nav-item-background: transparent;
     --nav-item-text-color: var(--color-text);
-    --nav-item-decoration-color: var(--color-blue);
+    --nav-item-decoration-color: var(--color-text);
   }
 }
 
@@ -180,8 +180,8 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 .mainnav ul:first-child [aria-current='page'],
 .mainnav ul:first-child [data-state='active'] {
   --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-blue);
-  --nav-item-decoration-color: var(--color-blue);
+  --nav-item-text-color: var(--color-text);
+  --nav-item-decoration-color: var(--color-text);
 }
 
 /* make menu wrap without drawer */
