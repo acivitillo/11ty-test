@@ -38,15 +38,12 @@
 
     <!-- 8 meta tags, icons, open graph etc.  -->
     {% include "head/meta-info.njk" %}
-
-    <!-- 9 search  -->
-    {% include "head/pagefind.njk" %}
   </head>
 
   <body class="{{ layout }} {{ bodyClass }}">
     {% include "partials/header.njk" %}
 
-    <main id="main" class="{{ mainClass }}">{{ content | safe }}</main>
+    <main id="main" class="{{ mainClass }}" data-pagefind-body>{{ content | safe }}</main>
 
     {% include "partials/footer.njk" %}
   </body>
