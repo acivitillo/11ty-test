@@ -83,7 +83,7 @@ svg {
   block-size: 2ex;
   inline-size: auto;
   flex: none;
-  stroke-width: 1;
+  stroke-width: 2;
   vector-effect: non-scaling-stroke;
 }
 
@@ -107,6 +107,10 @@ hr {
 a {
   color: currentcolor;
   text-decoration-thickness: 0.08em;
+}
+
+mark {
+  background: var(--color-gold);
 }
 
 a:hover {

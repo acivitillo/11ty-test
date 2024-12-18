@@ -2,6 +2,8 @@
   --nav-list-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
   position: var(--nav-position, absolute);
   inset-inline-end: 0;
+  /* position depending on search button */
+  order: 1;
 }
 
 .mainnav:has([aria-expanded='true']) {
@@ -136,10 +138,15 @@
 .mainnav > ul:first-of-type > li:last-child [aria-current='page'] {
   --nav-item-background: var(--color-text);
   --nav-item-decoration-color: transparent;
+  --nav-item-text-color: var(--color-bg);
 }
 
+/* Search Toggle Visibility */
 @media screen(navigation) {
   .mainnav {
+    /* position depending on search button */
+    order: 0;
+    margin-inline-end: var(--space-xl);
     --nav-position: static;
     --nav-button-display: none;
   }
