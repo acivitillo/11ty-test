@@ -11,12 +11,12 @@
     "clean": "rimraf _site src/_includes/css src/_includes/scripts",
     "favicons": "node ./src/_config/setup/generate-favicons.js",
     "colors": "node ./src/_config/setup/create-colors.js",
+    "search": "npx pagefind --site '_site' --serve",
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
-    "build:index": "npx -y pagefind --site _site",
     "start": "npm run dev:clean & npm run dev:11ty",
-    "build": "npm run clean && npm run build:11ty"
+    "build": "npm run clean && npm run build:11ty && npm run search"
   },
   "keywords": [],
   "repository": {
