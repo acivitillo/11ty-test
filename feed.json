@@ -1,0 +1,43 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Blog",
+  "language": "en",
+  "home_page_url": "http://localhost:8080/",
+  "feed_url": "http://localhost:8080/feed.json",
+  "description": "",
+  "authors": [
+    {
+      "name": "The Scalable Way"
+    }
+  ],
+  "items": [{
+      "id": "http://localhost:8080/blog/what-is-a-modern-data-platform-and-why-should-you-care/",
+      "url": "http://localhost:8080/blog/what-is-a-modern-data-platform-and-why-should-you-care/",
+      "title": "What is a modern data platform and why should you care?",
+      "content_html": "<p>TBD</p>",
+      "date_published": "2024-11-23T00:00:00Z"
+    }
+    ,{
+      "id": "http://localhost:8080/blog/comparing-dbt-and-sqlmesh/",
+      "url": "http://localhost:8080/blog/comparing-dbt-and-sqlmesh/",
+      "title": "Comparing dbt and SQLMesh",
+      "content_html": "<p>TBD</p>",
+      "date_published": "2024-11-20T00:00:00Z"
+    }
+    ,{
+      "id": "http://localhost:8080/blog/using-k3s-as-a-lightweight-scalable-solution-to-deploy-prefect-flows-on-vms/",
+      "url": "http://localhost:8080/blog/using-k3s-as-a-lightweight-scalable-solution-to-deploy-prefect-flows-on-vms/",
+      "title": "Using K3S as a lightweight scalable solution to deploy Prefect flows on VMs",
+      "content_html": "<p>TBD</p>",
+      "date_published": "2024-11-20T00:00:00Z"
+    }
+    ,{
+      "id": "http://localhost:8080/blog/breaking-down-prefect-flows-to-improve-obsevability-and-data-ops/",
+      "url": "http://localhost:8080/blog/breaking-down-prefect-flows-to-improve-obsevability-and-data-ops/",
+      "title": "Breaking down Prefect flows to improve obsevability and data ops",
+      "content_html": "<p>TBD</p>",
+      "date_published": "2024-11-20T00:00:00Z"
+    }
+    
+  ]
+}

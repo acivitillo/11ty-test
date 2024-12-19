@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en" xml:base="http://localhost:8080/">
+  <title>Blog</title>
+  <subtitle></subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self" />
+  <link href="http://localhost:8080/" />
+  <updated>2024-12-19T15:14:28Z</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>The Scalable Way</name>
+  </author>
+	<entry>
+      <title>What is a modern data platform and why should you care?</title>
+      <link href="http://localhost:8080/blog/what-is-a-modern-data-platform-and-why-should-you-care/" />
+      <updated>2024-11-23T00:00:00Z</updated>
+      <id>http://localhost:8080/blog/what-is-a-modern-data-platform-and-why-should-you-care/</id>
+      <content type="html">
+				&lt;p&gt;TBD&lt;/p&gt;
+ 			</content>
+    </entry><entry>
+      <title>Comparing dbt and SQLMesh</title>
+      <link href="http://localhost:8080/blog/comparing-dbt-and-sqlmesh/" />
+      <updated>2024-11-20T00:00:00Z</updated>
+      <id>http://localhost:8080/blog/comparing-dbt-and-sqlmesh/</id>
+      <content type="html">
+				&lt;p&gt;TBD&lt;/p&gt;
+ 			</content>
+    </entry><entry>
+      <title>Using K3S as a lightweight scalable solution to deploy Prefect flows on VMs</title>
+      <link href="http://localhost:8080/blog/using-k3s-as-a-lightweight-scalable-solution-to-deploy-prefect-flows-on-vms/" />
+      <updated>2024-11-20T00:00:00Z</updated>
+      <id>http://localhost:8080/blog/using-k3s-as-a-lightweight-scalable-solution-to-deploy-prefect-flows-on-vms/</id>
+      <content type="html">
+				&lt;p&gt;TBD&lt;/p&gt;
+ 			</content>
+    </entry><entry>
+      <title>Breaking down Prefect flows to improve obsevability and data ops</title>
+      <link href="http://localhost:8080/blog/breaking-down-prefect-flows-to-improve-obsevability-and-data-ops/" />
+      <updated>2024-11-20T00:00:00Z</updated>
+      <id>http://localhost:8080/blog/breaking-down-prefect-flows-to-improve-obsevability-and-data-ops/</id>
+      <content type="html">
+				&lt;p&gt;TBD&lt;/p&gt;
+ 			</content>
+    </entry></feed>
